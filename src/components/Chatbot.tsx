@@ -91,7 +91,7 @@ export default function Chatbot() {
         {open ? (
           <X className="w-9 h-9 text-red-600" />
         ) : (
-          <Image alt="chatbot" src={"/Chatbot.png"} height={35} width={35} />
+          <Image alt="chatbot" src={"/chatbot.png"} height={35} width={35} />
         )}
       </button>
 
