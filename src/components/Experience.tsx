@@ -20,12 +20,13 @@ type EducationItem = {
 
 const workData: ExperienceItem[] = [
   {
-    company: 'RepliQ',
-    role: 'Co-founder & lead developer',
+    company: 'RepliQ.in',
+    role: 'Junior developer | Sept 2025 – Feb 2026',
     img: '/repliq.jpeg',
     points: [
-      'Architected a full-stack SaaS platform using Next.js & MongoDB.',
+      'Assisted to build full-stack Instagram Automation SaaS platform to schedule posts, automate workflows.',
       'Built automation workflows using Instagram Graph API.',
+      'Developed secure backend using API routes of Next.js and Express.js to handle automation logic, user authentication, and task scheduling.',
       'Integrated Razorpay for subscriptions & billing.',
       'Managed scaling, performance & product lifecycle.',
     ],
@@ -41,27 +42,28 @@ const workData: ExperienceItem[] = [
   },
   {
     company: 'Alphinity Soft tech pvt ltd',
-    role: 'Intern',
+    role: 'Intern | Feb – July 2025.',
     img: '/alphiity.jpg',
     points: [
-      'Worked on frontend + backend (Next.js, Express, MongoDB).',
-      'Built coaching & college websites.',
-      'Improved development skills with real projects.',
+      ' Developed a responsive institute portfolio used by 500+ users, improving load time by 30% using React.js, and Tailwind CSS',
+      'Implemented RESTful APIs and backend logic using Node.js and Express.js.',
+      'Integrated MongoDB for secure data storage and performed CRUD operations.',
+      ' Built reusable UI components and optimized application performance collaborated using Git and GitHub.'
     ],
   },
 ]
 
 const educationData: EducationItem[] = [
   {
-    institute: 'D. Y. Patil Technical Campus, Kolhapur',
-    duration: '2023 - 2026',
+    institute: 'D. Y. Patil Technical Campus, Talsande, Kolhapur',
+    duration: '2022 - 2026',
     degree: 'B.Tech in Computer Science & Engineering',
     img: '/dyp.png',
   },
   {
-    institute: 'New English School & Junior College of Science, Shirala',
+    institute: 'New English School & Junior College of Science, Shirala, Sangli',
     duration: '2020 - 2022',
-    degree: '11th + 12th',
+    degree: ' Higher Secondary Certificate',
     img: '/ness.png',
   },
 ]
@@ -102,8 +104,8 @@ function EducationItemCard({ item }: { item: EducationItem }) {
 
       <div className="flex flex-1 flex-col gap-1">
         <time className="text-xs text-gray-400">{item.duration}</time>
-        <h2 className="font-semibold leading-none text-2xl">{item.institute}</h2>
-        <p className="text-sm text-gray-400">{item.degree}</p>
+        <h2 className="font-semibold leading-none text-2xl">{item.degree}</h2>
+        <p className="text-sm text-gray-400">{item.institute}</p>
       </div>
     </li>
   )

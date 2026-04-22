@@ -32,6 +32,8 @@ const otherSkills: SkillItem[] = [
   { name: 'Git & GitHub', img: '/git.png' },
   { name: 'Vs Code', img: '/vs2.png' },
   { name: 'Postman', img: '/Postman.png' },
+  { name: 'AWS', img: '/aws3.png' },
+  { name: 'Docker', img:'/docker.png'}
 ]
 
 function Tech() {

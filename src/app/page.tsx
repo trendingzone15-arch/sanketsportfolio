@@ -16,9 +16,9 @@ export default function Home() {
        <Hero/>
     <BlurUp>
       <div className=" z-10 w-full  mb-50 flex items-center gap-2 justify-center">
-            <Link href='https://github.com/Sanketmane135' className='text-sm rounded flex px-2 py-1 gap-1 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50'>GitHub <Github/></Link>
-            <Link  href={'/sanket mane resume.pdf'} className="bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 px-3 py-2 rounded">Resume</Link>
-            <Link href='https://www.linkedin.com/in/sanket-mane-1986092ab' className='text-md rounded flex px-2 py-1 gap-1 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50'>Linked <Linkedin className="h-5"/></Link>   
+            <Link href='https://github.com/trendingzone15-arch' target="_blank" className='text-sm rounded flex px-2 py-1 gap-1 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50'>GitHub <Github/></Link>
+            <Link  href={'/Mane sanket CV.pdf'} target="_blank" className="bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 px-3 py-2 rounded">Resume</Link>
+            <Link href='https://www.linkedin.com/in/sanket-mane-94b9113aa' target="_blank" className='text-md rounded flex px-2 py-1 gap-1 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50'>Linked <Linkedin className="h-5"/></Link>   
        </div>
        </BlurUp>
       <div className="w-full px-10 sm:px-6 md:px-10 lg:px-40 xl:px-80 -mt-40 relative overflow-hidden ">

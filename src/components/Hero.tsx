@@ -11,10 +11,10 @@ function Hero() {
 
       <div className="mx-auto mt-32 w-screen max-w-2xl z-10">
         <div className="text-center text-3xl text-white cursor-crosshair">
-
+          
           <TextGenerateEffect
-            words="Dev. Sanket Mane"
-            className="bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-4xl md:text-6xl font-bold text-transparent"
+            words=" Sanket Mane"
+            className="bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-5xl md:text-6xl font-bold text-transparent"
           />
 
           <br />
