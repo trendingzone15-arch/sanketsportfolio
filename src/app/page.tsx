@@ -6,13 +6,22 @@ import Blogs from "@/components/Blogs";
 import Link from "next/link";
 import { Github, Linkedin } from "lucide-react";
 import BlurUp from "@/components/Blurup";
+import { Poppins, Inter, Space_Grotesk, Sora, Great_Vibes ,Tangerine , Fugaz_One,Shojumaru, Ubuntu } from "next/font/google";
 
+const ubuntu = Ubuntu({
+  subsets: ["latin"],
+  weight: "400",
+});
 
+const tangerine = Shojumaru({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function Home() {
     
   return (
-    <div className="w-full  m-0 p-0">
+    <div className={`${ubuntu.className} w-full  m-0 p-0`}>
        <Hero/>
     <BlurUp>
       <div className=" z-10 w-full  mb-50 flex items-center gap-2 justify-center">

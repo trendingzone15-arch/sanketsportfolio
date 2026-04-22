@@ -4,6 +4,13 @@ import React, { memo } from 'react'
 import { SparklesCore } from '@/components/ui/sparkles'
 import TextGenerateEffect from '@/components/ui/typewriter'
 import BlurUp from './Blurup'
+import { Poppins, Inter, Space_Grotesk, Sora, Great_Vibes ,Tangerine , Fugaz_One,Shojumaru, Ubuntu } from "next/font/google";
+
+const ubuntu = Inter({
+  subsets: ["latin"],
+  weight: "400",
+});
+
 
 function Hero() {
   return (
@@ -14,8 +21,7 @@ function Hero() {
           
           <TextGenerateEffect
             words=" Sanket Mane"
-            className="bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-5xl md:text-6xl font-bold text-transparent"
-          />
+            className={` bg-gradient-to-r from-orange-400 to-red-600 bg-clip-text text-5xl md:text-6xl font-bold text-transparent `} />
 
           <br />
 

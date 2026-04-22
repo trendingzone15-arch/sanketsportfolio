@@ -4,6 +4,13 @@ import "./globals.css";
 import Header1 from "@/components/Header";
 import Footer4Col from "@/components/mvpblocks/footer-4col";
 import Chatbot from "@/components/Chatbot";
+import { Ubuntu } from "next/font/google";
+
+const ubuntu = Ubuntu({
+  subsets: ["latin"],
+  weight: "400",
+});
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,22 +38,22 @@ const geistMono = Geist_Mono({
     "MERN Stack",
     "Software Engineer",
   ],
-  authors: [{ name: "Sanket Mane", url: "https://sanketmane.vercel.app" }],
+  authors: [{ name: "Sanket Mane", url: "https://sanketmanetech.vercel.app" }],
   creator: "Sanket Mane",
   publisher: "Sanket Mane",
-  metadataBase: new URL("https://sanketmane.vercel.app"), 
+  metadataBase: new URL("https://sanketmanetech.vercel.app"), 
   alternates: {
-    canonical: "https://sanketmane.vercel.app",
+    canonical: "https://sanketmanetech.vercel.app",
   },
   openGraph: {
     title: "Sanket Mane | Full-Stack Developer & AI Enthusiast",
     description:
       "Full-Stack Developer skilled in Next.js, TypeScript, MongoDB & AI automation. Check out my projects: Bagpack Trips, Stegano, and AI Interview Assistant.",
-    url: "https://sanketmane.vercel.app",
+    url: "https://sanketmanetech.vercel.app",
     siteName: "Sanket Mane Portfolio",
     images: [
       {
-        url: "https://sanketmane.vercel.app/og-image.jpeg",
+        url: "https://sanketmanetech.vercel.app/og-image.jpeg",
         width: 1200,
         height: 630,
         alt: "Sanket Mane Portfolio - Full Stack Developer",
@@ -68,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black dark  m-0 p-0`}
+        className={`${geistSans.variable} ${geistMono.variable} ${ubuntu.className} antialiased bg-black dark  m-0 p-0`}
       > <Header1/>
 
      
